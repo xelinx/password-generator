@@ -1,4 +1,6 @@
 
+
+
   var passLength = form ("How many characters do you want in your password?")
   var lowercase = prompt ("Do you want to include lowercase letters?")
   var uppercase = prompt ("Do you want to include uppercase letters?")
