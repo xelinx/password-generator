@@ -10,7 +10,7 @@ The following is submitted for review:
 
 * The URL of the deployed application.
 
-https://xelinx.github.io/portfolio/
+https://xelinx.github.io/password-generator/
 
 * The URL of the GitHub repository which includes a README describing the project.
 
