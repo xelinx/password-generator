@@ -1,5 +1,8 @@
 # Password Generator
 
+Creating an application that generates a random password (8-128 characters)at the click of a button. The password will be created based on the user's answer to prompts.
+
+This time around, I really struggled with the javascript. 
 
 ## Screenshots of the Deployed Website
 
