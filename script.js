@@ -1,38 +1,41 @@
 
-function promptLength () {
+function generatePassword (plength) {
+    var charSet = "";
     var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));
         if (passLength <8) {
             "Please enter a number between 8 and 128."
-        }
+        };
+        if else (passLength >128) {
+            "Please enter a number between 8 and 128."
+        };
+        else (passLength) {
+            
+        };
+
     var lowercase = confirm ("Do you want to include lowercase letters?");
     var uppercase = confirm ("Do you want to include uppercase letters?");
     var numbers = confirm ("Do you want to include numbers?");
     var special = confirm ("Do you want to include special characters?");
-}
-
-
-
-function generatePassword () {
-    userPassword = "";
-    passwordCharSet = "";
-    if (lowercase === true) {
-        passwordCharSet+ lowerCase;
-    }
-    if (uppercase === true) {
-        passwordCharSet+ upperCase;
-    }
-    if (numbers === true) {
-        passwordCharSet+ number;
-    }
-    if (special === true) {
-        passwordCharSet+ specialChar;
-    }
+        if( lowercase === "true" ) {
+            charSet + "abcdefghijklmnopqrstuvwxyz";
+        } 
+        else if( uppercase === "true" ) {
+            charSet + "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        } 
+        else if( numbers === "true" ) {
+            charSet + "0123456789";
+        } 
+        else if( special === "true" ) {
+            charSet + "~!@#$%^&*/-+";
+        } 
     plength = Number(lengthInput.value);
 
-    for (let i = 0; i < plength; i++) {
-      userPassword += passwordCharSet.charAt(
-        Math.floor(Math.random() * passwordCharSet.length)
+    var value = "";
+    for (var i = 0; i < length; i++) {
+      userPassword += charSet.charAt(
+        value+ (Math.floor(Math.random() * charSet.length)
       );
     }
-    return 
+    return value
 }
+alert(generatePassword());
