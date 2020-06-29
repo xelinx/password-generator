@@ -1,19 +1,16 @@
 
 function promptLength () {
     var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));
-        if (passLength <8, >128 ) {
+        if (passLength <8) {
             "Please enter a number between 8 and 128."
-            promptLength ();
         }
-    
-}
-
-function characters () {
     var lowercase = confirm ("Do you want to include lowercase letters?");
     var uppercase = confirm ("Do you want to include uppercase letters?");
     var numbers = confirm ("Do you want to include numbers?");
     var special = confirm ("Do you want to include special characters?");
 }
+
+
 
 function generatePassword () {
     userPassword = "";
