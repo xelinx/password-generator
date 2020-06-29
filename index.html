@@ -16,10 +16,13 @@
             <h2> Generate a Password</h2>
             
             <form class = "form" name="myPassword" method="post" action="">
-                <input name="password" type="text" size="50" placeholder="Your Secure Password">
+                <input name="password" type="form" min = "8" max = "128" size="50" placeholder="Your Secure Password">
+            
+                <button id="copy" class="copy">Copy</button>
+                <div class="alert" id="alert"><span class="message" id="message"></div>
+                </div>
                 <br>
-
-                <button type="button" class = "generate">Generate Password</button>
+                <button type="button" class = "button">Generate Password</button>
 
             </form>
 
