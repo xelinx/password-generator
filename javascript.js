@@ -1,7 +1,7 @@
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
-var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-var number = "0123456789"
-
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var number = "0123456789";
+var specialChar = "!@#$%^&*/-+";
 
   var passLength = form ("How many characters do you want in your password?");
   var lowercase = prompt ("Do you want to include lowercase letters?");
@@ -10,4 +10,6 @@ var number = "0123456789"
   var special = prompt ("Do you want to include special characters?");
 
 
-  function random
+  function generatePassword () {
+
+  }
