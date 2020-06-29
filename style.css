@@ -5,6 +5,7 @@ body {
 
 .box {
     padding: 15px;
+    align-items: center;
 }
 
 .button {
