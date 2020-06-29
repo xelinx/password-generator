@@ -15,15 +15,15 @@
         <div class = "box">
             <h2> Generate a Password</h2>
             
-            <form  name="myPassword" method="post" action="">
-                <input name="password" type="form" placeholder="Your Secure Password">
+            <form class = "form" name="myPassword" method="post">
+                <input name="password" type="text" placeholder="Your Secure Password">
             
                 <button id="copy" class="copy">Copy</button>
-                <div class="alert" id="alert"><span class="message" id="message"></div>
+                
+                <div>
+                    <br>
+                    <button type="button" class = "generate" onclick = "promptLength()">Generate Password</button>
                 </div>
-                <br>
-                <button type="button" class = "generate" onclick = "promptLength()">Generate Password</button>
-
             </form>
 
         </div>
