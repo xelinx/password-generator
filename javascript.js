@@ -11,20 +11,16 @@ var passwordCharSet;
   var special = confirm ("Do you want to include special characters?");
 
 
+    // Loop over every question object
+    for (var i = 0; i < questions.length; i++) {
+        // Display current question to user and ask OK/Cancel
+        var answer = confirm(questions[i].q);
+
   function generatePassword () {
     userPassword = "";
     passwordCharSet = "";
-    if (lowercaseInput.checked) {
-      passwordCharSet += lowercase;
-    }
-    if (uppercaseInput.checked) {
-      passwordCharSet += uppercase;
-    }
-    if (punctuationInput.checked) {
-      passwordCharSet += punctuation;
-    }
-    if (numbersInput.checked) {
-      passwordCharSet += numbers;
+    if (lowercase, uppercase, numbers, special === true) {
+      passwordCharSet += lowercase, uppercase, numbers, special;
     }
     plength = Number(lengthInput.value);
    
@@ -33,3 +29,5 @@ var passwordCharSet;
         Math.floor(Math.random() * passwordCharSet.length)
       );
     }  
+
+generateButton.addEventListener("click", generate);
