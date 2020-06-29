@@ -1,4 +1,6 @@
-
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var number = "0123456789"
 
 
   var passLength = form ("How many characters do you want in your password?");
