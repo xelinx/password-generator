@@ -19,6 +19,10 @@ https://xelinx.github.io/password-generator/
 
 https://github.com/xelinx/password-generator
 
+HTML Checker
+
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fxelinx.github.io%2Fpassword-generator%2Findex.html
+
 ## Credits (tutorials used)
 
 HTML Semantic Elements https://www.w3schools.com/html/html5_semantic_elements.asp
@@ -31,6 +35,5 @@ While Loop https://www.javascripttutorial.net/javascript-while-loop/
 
 Concat String https://www.w3schools.com/jsref/jsref_concat_string.asp#:~:text=The%20concat()%20method%20is,text%20of%20the%20joined%20strings.
 
-Nested Functions https://javascript.info/closure#:~:text=Nested%20functions,to%20do%20this%20with%20JavaScript.&text=Here%20the%20nested%20function%20getFullName,can%20return%20the%20full%20name.
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

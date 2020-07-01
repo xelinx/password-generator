@@ -1,4 +1,5 @@
-document.querySelector("#prompt").addEventListener("click", promptLength);
+//Prompt Length question on click
+document.querySelector("#prompt").addEventListener("click", writePassword);
 
 //Variables
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
@@ -13,10 +14,8 @@ var confirmNumbers;
 var confirmSpecial; 
 var confirmLoop;
 
-var password = document.getElementById("password");
-
-//Ask password Length
-function promptLength () {
+//Ask questions to generate password
+function promptQuestions () {
     var passLength = "";
     var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));
 
@@ -58,10 +57,23 @@ function promptLength () {
     }
 
     if( numbers) {
-        charSet = charSet.concat( number);
+        charSet = charSet.concat(number);
     } 
 
     if( special) {
        charSet = charSet.concat(specialChar);
     } 
+
+    console.log(charSet)
+          
+    var randomPassword;
+
+    for (var i = 0; i < passLength; i++) {
+        randomPassword = randomPassword + charSet[Math.floor(Math.random() * charSet.length)];
+        console.log(randomPassword)
+      }
+      return randomPassword;
 };
+
+
+
