@@ -1,5 +1,11 @@
 document.querySelector("#prompt").addEventListener("click", promptLength);
 
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var number = "0123456789";
+var special = "!@#$%^&*/-+";
+
+
 
 var password = {
 //Ask password Length
@@ -46,10 +52,3 @@ addSpecial: function() {
             this.charSet;
         }
     },
-    var value = "";
-    for (var i = 0; i < length; i++) {
-      value += charSet.charAt(Math.floor(Math.random() * charSet.length));
-    }
-    return value
-}
-alert(generatePassword());
