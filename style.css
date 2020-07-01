@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
   }
 
   /*Body*/
@@ -37,6 +37,6 @@ body {
 }
 
 .textbox {
-  height: 200px;
-  width: 150px;
+  height: 300px;
+  width: 500px;
 }

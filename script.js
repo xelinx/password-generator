@@ -20,6 +20,7 @@ function promptLength () {
         var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));
     }
 
+    //confirm inclusion of characters, numbers, special characers
     var lc = confirm ("Do you want to include lowercase letters?");
     var uppercase = confirm ("Do you want to include uppercase letters?");
     var numbers = confirm ("Do you want to include numbers?");
