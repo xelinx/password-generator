@@ -5,7 +5,7 @@ document.querySelector("#prompt").addEventListener("click", writePassword);
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var number = "0123456789";
-var specialChar = "!@#$%^&*/-+";
+var specialChar = "!@#$%^&*/-+[]\{}|;':,./<>?";
 
 var passLength;
 var confirmLowercase;
@@ -24,7 +24,6 @@ function promptQuestions () {
         alert("Please enter a number between 8 and 128");
         var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));
     }
-
 
     //Display password length
     alert("Your password will be " + passLength + " characters");
@@ -66,7 +65,7 @@ function promptQuestions () {
 
     console.log(charSet)
           
-    var randomPassword;
+    var randomPassword = "";
 
     for (var i = 0; i < passLength; i++) {
         randomPassword = randomPassword + charSet[Math.floor(Math.random() * charSet.length)];
@@ -80,6 +79,7 @@ function promptQuestions () {
         var passwordText = document.querySelector("#password");
       
         passwordText.value = password;
+
     }
 
 
