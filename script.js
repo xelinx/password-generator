@@ -11,6 +11,7 @@ var confirmLowercase;
 var confirmUppercase;
 var confirmNumbers;
 var confirmSpecial; 
+var confirmLoop;
 var characters;
 
 
@@ -33,12 +34,22 @@ function promptLength () {
     alert("Your password will be " + passLength + " characters");
 
     //confirm inclusion of characters, numbers, special characers
+
     var lowercase = confirm ("Do you want to include lowercase letters?");
     var uppercase = confirm ("Do you want to include uppercase letters?");
     var numbers = confirm ("Do you want to include numbers?");
     var special = confirm ("Do you want to include special characters?");
 
-    var characters = [lowercase, uppercase, numbers, special]
+    if (lowercase === "false" && uppercase === "false" && numbers === "false" && special === "false") {
+        alert ("Please include at least one set of characters");
+        var lowercase = confirm ("Do you want to include lowercase letters?");
+        var uppercase = confirm ("Do you want to include uppercase letters?");
+        var numbers = confirm ("Do you want to include numbers?");
+        var special = confirm ("Do you want to include special characters?");
+    }
+
+    alert ("test")
+
 };
 
 
