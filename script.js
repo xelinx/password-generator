@@ -5,7 +5,11 @@ var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var number = "0123456789";
 var special = "!@#$%^&*/-+";
 
+var passLength;
 
+function promptLength () {
+    var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));
+}
 
 var password = {
 //Ask password Length
