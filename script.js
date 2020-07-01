@@ -74,6 +74,12 @@ function promptQuestions () {
       }
       return randomPassword;
 };
-
+    // Generate password in box
+    function writePassword() {
+        var password = promptQuestions();
+        var passwordText = document.querySelector("#password");
+      
+        passwordText.value = password;
+    }
 
 
