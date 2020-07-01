@@ -13,12 +13,12 @@ function promptLength () {
     var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));
 
     //Loop if length isn't 8-128
-    while(promptLength <= 8 || confirmLength >=128)
-        alert("Please enter a number between 8 and 128.");
+    while(promptLength <= 8 || promptLength >= 128) {
+        alert("Please enter a number between 8 and 128");
         var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));
+    }
 
 };
-
 
 
 
