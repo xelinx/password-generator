@@ -1,4 +1,8 @@
+document.querySelector("#prompt").addEventListener("click", promptLength);
+
+
 var password = {
+//Ask password Length
 function promptLength () {
     var charSet = "";
     var passLength = Number(prompt ("How many characters do you want your password to be? Enter a number between 8 and 128."));

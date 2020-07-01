@@ -7,7 +7,6 @@ This time around, I really struggled with the javascript. I know what I want my 
 ## Screenshots of the Deployed Website
 ![Page](https://user-images.githubusercontent.com/66236313/85996692-6a346e80-b9bd-11ea-945c-c84baa0cd2bc.png)
 
-
 ## Review
 
 The following is submitted for review:
