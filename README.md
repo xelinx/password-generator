@@ -25,5 +25,6 @@ HTML Semantic Elements https://www.w3schools.com/html/html5_semantic_elements.as
 
 Special Character https://www.owasp.org/index.php/Password_special_characters
 
+While Loop https://www.javascripttutorial.net/javascript-while-loop/
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
