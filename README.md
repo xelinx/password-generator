@@ -25,6 +25,8 @@ HTML Semantic Elements https://www.w3schools.com/html/html5_semantic_elements.as
 
 Special Character https://www.owasp.org/index.php/Password_special_characters
 
+Javascript Comparisons https://www.w3schools.com/js/js_comparisons.asp
+
 While Loop https://www.javascripttutorial.net/javascript-while-loop/
 
 Concat String https://www.w3schools.com/jsref/jsref_concat_string.asp#:~:text=The%20concat()%20method%20is,text%20of%20the%20joined%20strings.
